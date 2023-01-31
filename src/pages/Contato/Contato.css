@@ -1,0 +1,44 @@
+.gifs{
+    border-radius: 100%;
+}
+.email{
+    color: white !important;
+    text-decoration-color: aliceblue !important;
+    padding: 60px 100px 70px !important;
+    
+    
+}
+.MuiInputBase-input {
+    font: inherit;
+    color:white !important;
+    width: 20vh !important;
+    border: 00px !important;
+    height: 15vh !important;
+    margin: 0;
+    
+    border-spacing: 100px !important;
+    display: block;
+    padding: 60px 100px 70px !important;
+    min-width: 0;
+    background:rgb(34, 34, 34) !important;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: 100%;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+}
+.alin{
+    align-items: center;
+    align-content: center;
+    
+}
+.email2{
+    padding: 20px;
+    align-items: center;
+    width: 80%;
+    height: 2%;
+    min-width: 100px ;
+
+
+
+}

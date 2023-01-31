@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;900&display=swap');
+.Bar{
+    background-color: #404877 !important;
+   
+    width: 100%;
+    height: 80%;
+    padding-right: 0px;
+    transition: all ease 1s;
+    
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+    background-color: #683900 !important;
+}
+.img1{
+    border-image: 1000px;
+    margin: 0.5%;
+    padding-left: 0%;
+   
+    
+}
+.entar{
+    background-color: #515151;
+    height: 90%;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2vh;
+    margin-right: 150%;
+
+    
+}
+.textoentrar{
+    padding-top: 30%;
+    font-size: 20px !important;
+    font-weight: 800;
+    border: 2vh;
+}
+
+.ativaCor{
+    transition: all ease 3s;
+    background-image: url(https://futuroastronomo.com.br/wp-content/uploads/2022/06/as-11-estrelas-mais-proximas-da-terra-1024x535.jpg);
+    color: transparent;
+    opacity: 0%;
+  
+    
+
+}
+.font{
+    color: #c2b4a4;
+    font-size: 20px !important;
+    font-weight: 800;
+    
+    text-shadow: 10px black !important;
+
+    
+
+}
+.MuiToolbar-gutters {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.MuiAppBar-root{
+    transition: all ease 1s;
+}

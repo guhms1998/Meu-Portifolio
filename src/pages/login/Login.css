@@ -1,0 +1,14 @@
+.text-decoration-none{
+    text-decoration: none;
+}
+.img{
+    background-image: url("https://raw.githubusercontent.com/MiniGod/logo.js/master/jsiceland/jsiceland.png");
+    width: 100vh;
+    height: 100vh;
+    background-size:contain;
+    
+}
+.MuiTypography-h5 {
+    font-family: 'Wire One' !important;
+   font-size: 30px !important;
+    }

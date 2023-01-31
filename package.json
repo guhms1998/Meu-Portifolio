@@ -1,0 +1,53 @@
+{
+  "name": "projeto1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "3d-react-carousal": "^5.0.0",
+    "@babel/preset-react": "^7.18.6",
+    "@coreui/react": "^4.3.1",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@lottiefiles/lottie-player": "^1.5.7",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.1",
+    "@types/radium": "^0.24.4",
+    "@types/react-animations": "^1.0.0",
+    "axios": "^0.27.2",
+    "bootstrap": "5.2.0",
+    "emailjs-com": "^3.2.0",
+    "framer": "^2.1.3",
+    "jquerry": "^0.0.1-security",
+    "material-ui": "^0.15.0",
+    "moti": "^0.18.0",
+    "radium": "^0.26.2",
+    "react": "^18.2.0",
+    "react-animations": "^1.0.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-lottie": "^1.2.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.3.0",
+    "react-spring": "^9.5.4",
+    "react-use-localstorage": "^3.5.3",
+    "semantic-ui-react": "^2.1.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-lottie": "^1.2.6",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^2.0.1",
+    "gh-pages": "^4.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  }
+}
