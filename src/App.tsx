@@ -48,7 +48,7 @@ function App() {
           <Route path='/login' element={<Login />} /> 
           <Route path='/cadastrousuario' element={<CadastroUsuario />} />
           <Route path='/' element={<SobreMim />} />  
-          <Route path='/contato' element={<Contato />}  /> 
+          <Route path='/' element={<Contato />}  /> 
           <Route path='/' element={<Projetos />}  />   
       
      </Routes>

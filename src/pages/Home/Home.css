@@ -348,10 +348,10 @@
 .pt2{
     align-items:flex-start;
     vertical-align: super;
-    
-    -webkit-mask-image: linear-gradient(to bottom, transparent 6%, black 12%);
-    background-image: url(https://images.pexels.com/photos/7147/night-clouds-summer-trees.jpg);
-    
+    background-color: transparent;
+    background-image:  linear-gradient( to top, #242424, transparent 68%, #242424 ), url(https://images.pexels.com/photos/7147/night-clouds-summer-trees.jpg) ;
+
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: 115%;
@@ -359,8 +359,13 @@
     height: 140vh;
 }
 .pt3{
+  
+  background-image:  linear-gradient( to top, #242424, transparent 68%, #242424 ), url(https://cdn.fansshare.com/image/brightbackgrounds/famous-dark-wood-floor-background-black-background-wallpaper-for-tumblr-1875278277.jpg);
     align-items:flex-start;
+    background-repeat: no-repeat;
+    background-position: center;
     vertical-align: super;
+    background-size: 100%;
     background-color: rgb(255, 38, 0);
     color: #c2b4a4;
     height: 120vh;

@@ -9,6 +9,7 @@ import { Fingerprint } from '@mui/icons-material';
 import SobreMim from '../SobreMim/SobreMim';
 import { useState } from "react";
 import Projetos from '../Projetos/Projetos'
+import Contato from '../Contato/Contato';
 
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -64,7 +65,7 @@ function Home() {
 
                 </Grid>
                 <Grid className='pt4' xs={12}>
-
+                <Box id='contato'><Contato /></Box>
 
                 </Grid>
             </Grid>

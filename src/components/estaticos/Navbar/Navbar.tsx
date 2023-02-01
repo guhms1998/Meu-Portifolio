@@ -29,7 +29,7 @@ function Navbar ({acao=true}) {
         </Link>
         </Box>
         <Box mx={2}>
-          <Link href="/contato">
+          <Link href="#contato">
         <Typography className="font">Contato 😊   </Typography>
         </Link>
         </Box >
