@@ -47,7 +47,7 @@ function Home() {
                     </Grid>
                     <Grid xs={1} />
                     <Grid xs={5}>
-                        <img src='.\src\pages\Home\img\How-to-student-ID-card.png' width={'100%'} height={'600vh'} />
+                        <img src='https://i.imgur.com/TME4bEP.png' width={'100%'} height={'600vh'} />
                     </Grid>
                 </Grid>
 
