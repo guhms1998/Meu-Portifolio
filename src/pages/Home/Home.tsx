@@ -8,8 +8,11 @@ import Main from './Home'
 import { Fingerprint } from '@mui/icons-material';
 import SobreMim from '../SobreMim/SobreMim';
 import { useState } from "react";
+import Projetos from '../Projetos/Projetos'
 
 import { motion, AnimatePresence } from "framer-motion";
+
+
 
 
 
@@ -52,25 +55,16 @@ function Home() {
                 </Grid>
 
                 <Grid container className='pt2' xs={12}>
-                    <SobreMim />
+                    <Box id='sobremim'><SobreMim /></Box>
                 </Grid>
 
 
                 <Grid className='pt3' xs={12}>
-
-                    
-
-                 <Grid container justifyContent='center' alignItems='stretch' direction='row' xs={12}>   
-                    <Grid className="window" xs={6}>
-                       
-                            
-                    </Grid>
-                    </Grid>
-                    
-
+                    <Box id='projetos'><Projetos /></Box>
 
                 </Grid>
                 <Grid className='pt4' xs={12}>
+
 
                 </Grid>
             </Grid>

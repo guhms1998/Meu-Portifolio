@@ -13,8 +13,9 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     '& > *': {
       margin: theme.spacing(1),
-      width: theme.spacing(16),
+      width: theme.spacing(15),
       height: theme.spacing(16),
+     
     },
     textAlign: 'center',
   },
@@ -25,8 +26,11 @@ const useStyles = makeStyles((theme) => ({
   box: {
     backgroundColor: theme.palette.primary.main,
     color: theme.palette.secondary.main,
-    padding: theme.spacing(2),
+    padding: theme.spacing(5),
     borderRadius: theme.spacing(1),
+    margin: theme.spacing(2),
+    marginTop: theme.spacing(15),
+
   }
 }));
 

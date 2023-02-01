@@ -18,13 +18,13 @@ function Navbar ({acao=true}) {
       </Grid>
       <Grid  xs={5}  display="flex" alignItems="center" justifyContent="center" rowSpacing={2} className='nav2'>
         <Box mx={1}>
-        <Link href="/sobremim" >
+        <Link href="#sobremim" >
         
         <Typography className="font">Sobre Mim 🤯   </Typography>
         </Link>
         </Box >
         <Box mx={2}>
-        <Link href="/projetos" >
+        <Link href="#projetos" >
         <Typography className="font">Projetos 😎    </Typography>
         </Link>
         </Box>

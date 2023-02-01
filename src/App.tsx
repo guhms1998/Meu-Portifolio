@@ -43,12 +43,13 @@ function App() {
         style={{ scaleX: scrollYProgress }}
       />
       <Routes>             
+      
           <Route path='/' element={<Home />} /> 
           <Route path='/login' element={<Login />} /> 
           <Route path='/cadastrousuario' element={<CadastroUsuario />} />
-          <Route path='/sobremim' element={<SobreMim />} />  
+          <Route path='/' element={<SobreMim />} />  
           <Route path='/contato' element={<Contato />}  /> 
-          <Route path='/projetos' element={<Projetos />}  />   
+          <Route path='/' element={<Projetos />}  />   
       
      </Routes>
 

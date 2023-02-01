@@ -1,5 +1,0 @@
-# Redirects from what the browser requests to what we serve
-/home              /
-/sobremim  /blog/my-post
-/news              /blog
-/cuties            https://gustavohms.netlify.app/

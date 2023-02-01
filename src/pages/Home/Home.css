@@ -343,11 +343,18 @@
     justify-content: center;
     height: 100vh;
     padding-top: 10vh;
+    
 }
 .pt2{
     align-items:flex-start;
     vertical-align: super;
-    background-color: aqua;
+    
+    -webkit-mask-image: linear-gradient(to bottom, transparent 6%, black 12%);
+    background-image: url(https://images.pexels.com/photos/7147/night-clouds-summer-trees.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
     color: #c2b4a4;
     height: 140vh;
 }

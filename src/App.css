@@ -11,6 +11,7 @@ body {
     height: 10px;
     background: var(--red);
     transform-origin: 0%;
+    
   }
   body {
     --black: #111111;
