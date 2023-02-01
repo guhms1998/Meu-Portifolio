@@ -13,7 +13,7 @@ function Navbar ({acao=true}) {
       <Grid  paddingTop={1} xs={6}  >
         <Link href="/">
         
-          <img src="src\components\estaticos\Navbar\Hms.png" width={'50vh'} height={'50vh'}  className="img1"  />          
+          <img src="src\components\estaticos\Navbar\fhms.png" width={'70vh'} height={'65vh'}  className="img1"/>          
       </Link>
       </Grid>
       <Grid  xs={5}  display="flex" alignItems="center" justifyContent="center" rowSpacing={2} className='nav2'>
