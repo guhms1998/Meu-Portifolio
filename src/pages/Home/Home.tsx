@@ -51,7 +51,7 @@ function Home() {
                     </Grid>
                     <Grid xs={1} />
                     <Grid xs={5}>
-                        <img src='https://i.imgur.com/TME4bEP.png' width={'100%'} height={'600vh'} />
+                        <img src='https://imgcloud.com.br/share/lSh1t9PM4RtoA8sw' width={'100%'} height={'600vh'} />
                     </Grid>
                 </Grid>
 

@@ -15,8 +15,9 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(1),
       width: theme.spacing(15),
       height: theme.spacing(16),
-     
+
     },
+    
     textAlign: 'center',
   },
   largeAvatar: {
@@ -32,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(15),
 
   }
+
 }));
 
 const SobreMim = () => {
@@ -42,13 +44,13 @@ const SobreMim = () => {
       <Grid item xs={12} sm={6}>
         <Box className={classes.box} align='center'>
           <Avatar
-            src="src\pages\SobreMim\image.png"
+            src="https://imgcloud.com.br/share/It6tFY4Bsa124NE3/direct"
             alt="Foto de Perfil"
             className={classes.largeAvatar}
           />
           <Typography variant="h6" className='texto' >Eu</Typography>
           <Typography variant="body2" className='texto'>
-          Oi meu nome é Gustavo, Sou Desenvolverdor Java Web Full Stack, com conhecimentos nas tecnologias Springboot para JavaScript, MySql,Html, Css e React, ja cursei 2 Semestre de Analise e desenvolvimento de sistemas, tenho foco sempre em metodologias ageis, me considero uma pessoa com bastantes softskilks com destaque para criatividade e proatividade. Meus interesses variam muito desde Filmes, digasse de passagem que meus favoritos são Interstellar e Tudo em todo Lugar Ao Mesmo Tempo, a sair para socializar. Todos os dias estou dando meu maximo para estudar e cada dia mais me aprofundar mais na tecnologias que mais me dou bem.
+            Oi meu nome é Gustavo, Sou Desenvolverdor Java Web Full Stack, com conhecimentos nas tecnologias Springboot para JavaScript, MySql,Html, Css e React, ja cursei 2 Semestre de Analise e desenvolvimento de sistemas, tenho foco sempre em metodologias ageis, me considero uma pessoa com bastantes softskilks com destaque para criatividade e proatividade. Meus interesses variam muito desde Filmes, digasse de passagem que meus favoritos são Interstellar e Tudo em todo Lugar Ao Mesmo Tempo, a sair para socializar. Todos os dias estou dando meu maximo para estudar e cada dia mais me aprofundar mais na tecnologias que mais me dou bem.
           </Typography>
         </Box>
       </Grid>
@@ -71,28 +73,58 @@ const SobreMim = () => {
       </Grid>
       <Grid item xs={12} sm={6}>
         <Box className={classes.box}>
-          <Typography variant="h6" className='texto'>Minhas Tecnologias e Cursos</Typography>
-          <Typography variant="body2">
-            Trabalho principalmente com React, Java e diversas outras ferramentas.
-          </Typography>
+          <Typography variant="h6" className='texto'>Minhas Tecnologias</Typography>
+          <Grid className={classes.root}>
+
+            <Avatar src="https://icons-for-free.com/download-icon-super+tiny+icons+javascript-1324450741921820748_256.png" />
+            <Avatar src="https://reactjs.org/logo-og.png" />
+            <Avatar src="https://cdn-icons-png.flaticon.com/512/919/919836.png" />
+            <Avatar src="https://videosdeti.com.br/wp-content/uploads/2018/12/git-githu-cover.png" />
+            <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsBp5lNdJlNXzmYh2TufzzTXgtm0CqzCqYiA&usqp=CAU" />
+          </Grid>
         </Box>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Box className={classes.box}>
-          <Typography variant="h6" className='texto'>Minhas Experienecias</Typography>
-          <Typography variant="body2">
-            Trabalho principalmente com React, Java e diversas outras ferramentas.
-          </Typography>
+        <Box className={classes.box} >
+          <Typography variant="h6" className='texto'>Minhas Experienecias e Estudos</Typography>
+          <Grid >
+
+            <Box className={classes.root} >
+              <Avatar src="https://res.cloudinary.com/generation/image/upload/w_350,q_auto,f_auto/brazil/2022/04/Cover-1.png" />
+              </Box>
+              <Typography variant="body1">
+                Generation Brasil
+              </Typography>            
+            <Box>             
+            </Box>
+            <Box className={classes.root}>
+              <Avatar src="https://res.cloudinary.com/generation/image/upload/w_350,q_auto,f_auto/brazil/2022/04/Cover-1.png" />
+              </Box>
+              <Typography variant="body1">
+                Generation Brasil
+              </Typography>            
+            <Box>             
+            </Box>
+            <Box className={classes.root}>
+              <Avatar src="https://res.cloudinary.com/generation/image/upload/w_350,q_auto,f_auto/brazil/2022/04/Cover-1.png" />
+              </Box>
+              <Typography variant="body1">
+                Generation Brasil
+              </Typography>            
+            <Box>             
+            </Box>
+            
+          </Grid>
         </Box>
       </Grid>
-      
 
-      
-      
-      
-      
+
+
+
+
+
     </Grid>
 
-);
+  );
 }
 export default SobreMim;

@@ -16,40 +16,40 @@ const useStyles = makeStyles(theme => ({
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Description for project 1',
-    image: 'path/to/image1.jpg',
-    githubLink: 'https://github.com/user/project1',
+    title: 'Meu Portifolio',
+    description: 'Tentado ser bem descontraido, fiz esse portifolio como um lugar de testes e feito para acessarem tanto profissionalmente quanto para me conheceram ',
+    image: 'https://imgcloud.com.br/share/IYnvE0EXISaWJtB2',
+    githubLink: 'https://github.com/guhms1998/Meu-Portifolio',
+  },
+  {
+    title: 'Project 2',
+    description: 'https://terra-da-gente.netlify.app/',
+    image: 'https://imgcloud.com.br/share/hEdCMIwF0q9sr34s',
+    githubLink: 'https://github.com/Terra-da-Gente',
+  },
+  {
+    title: 'Project 2',
+    description: 'Description for project 2',
+    image: 'https://static.vecteezy.com/ti/vetor-gratis/p1/425642-farmacia-com-enfermeira-no-balcao-personagem-de-desenho-animado-de-farmacia-vetor.jpg',
+    githubLink: 'https://github.com/guhms1998/FarmaciaJava',
   },
   {
     title: 'Project 2',
     description: 'Description for project 2',
     image: 'path/to/image2.jpg',
-    githubLink: 'https://github.com/user/project2',
+    githubLink: 'https://github.com/guhms1998/Joogo-Genius-em-JavaScript',
   },
   {
     title: 'Project 2',
     description: 'Description for project 2',
     image: 'path/to/image2.jpg',
-    githubLink: 'https://github.com/user/project2',
+    githubLink: 'https://github.com/guhms1998/Blog-Pessoal',
   },
   {
     title: 'Project 2',
     description: 'Description for project 2',
     image: 'path/to/image2.jpg',
-    githubLink: 'https://github.com/user/project2',
-  },
-  {
-    title: 'Project 2',
-    description: 'Description for project 2',
-    image: 'path/to/image2.jpg',
-    githubLink: 'https://github.com/user/project2',
-  },
-  {
-    title: 'Project 2',
-    description: 'Description for project 2',
-    image: 'path/to/image2.jpg',
-    githubLink: 'https://github.com/user/project2',
+    githubLink: 'https://github.com/guhms1998/Loja-de-Games',
   },
   {
     title: 'Project 2',
