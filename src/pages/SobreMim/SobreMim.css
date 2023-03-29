@@ -6,10 +6,25 @@ body {
     padding: 0;
     overflow-x: hidden;
     color:aliceblue !important;
+   align-items: center;
+   font-family: 'Aachen' !important;
+     font-style: normal;
+     font-weight: 700;
+     src: local('Aachen'), url('https://fonts.cdnfonts.com/s/14107/ufonts.com_aachen-bold-opentype.woff') format('woff') !important;
    
     
 }
+@font-face {
+     font-family: 'Aachen';
+     font-style: normal;
+     font-weight: 700;
+     src: local('Aachen'), url('https://fonts.cdnfonts.com/s/14107/ufonts.com_aachen-bold-opentype.woff') format('woff') !important;
+ }
 .texto{
      color:bisque;
+}
+.oi{
+     height: 100px;
+     width: 100px;
 }
 

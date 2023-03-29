@@ -1,8 +1,9 @@
 import { AppBar, Link, Toolbar, Typography } from "@material-ui/core";
 import { Grid, Box  } from "@mui/material";
-import './Navbar.css'
+import './Navbar.css';
 import SobreMim from "../../../pages/SobreMim/SobreMim";
 import { Route } from "react-router-dom";
+
 
 function Navbar ({acao=true}) {
   return(
@@ -13,28 +14,28 @@ function Navbar ({acao=true}) {
       <Grid  paddingTop={1} xs={6}  >
         <Link href="/">
         
-          <img src="https://imgcloud.com.br/share/rGZVceFujDFGl2fw" width={'70vh'} height={'62vh'}  className="img1"/>          
+          <img src="https://imgcloud.com.br/share/2lqf6tbKsXgrHGvh" width={'330vh'}  className="img1"/>          
       </Link>
       </Grid>
       <Grid  xs={5}  display="flex" alignItems="center" justifyContent="center" rowSpacing={2} className='nav2'>
         <Box mx={1}>
         <Link href="#sobremim" >
         
-        <Typography className="font">Sobre Mim 🤯   </Typography>
+        <Typography className="font">Sobre Mim   </Typography>
         </Link>
         </Box >
         <Box mx={2}>
         <Link href="#projetos" >
-        <Typography className="font">Projetos 😎    </Typography>
+        <Typography className="font">Projetos     </Typography>
         </Link>
         </Box>
         <Box mx={2}>
           <Link href="#contato">
-        <Typography className="font">Contato 😊   </Typography>
+        <Typography className="font">Contato    </Typography>
         </Link>
         </Box >
         <Box mx={1}>
-        <Typography className="font">Rede Sociais 😳   </Typography>
+        <Typography className="font">Rede Sociais   </Typography>
         </Box>
         <Box mx={1}  className="entar" sx={{p:1}}>
           <Typography className="textoentrar">

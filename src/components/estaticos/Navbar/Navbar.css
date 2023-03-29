@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;900&display=swap');
 .Bar{
-    background-color: #404877 !important;
+    background-color: #0099ff !important;
    
     width: 100%;
     height: 80%;
@@ -13,10 +13,11 @@
     background-color: #683900 !important;
 }
 .img1{
-    border-image: 1000px;
+    
     margin: 0.5%;
     padding-left: 3%;
     margin-bottom: -0.8%;
+    
    
     
 }
@@ -52,7 +53,7 @@
     color: #c2b4a4;
     font-size: 20px !important;
     font-weight: 800;
-    
+    font-family: w;
     text-shadow: 10px black !important;
 
     
