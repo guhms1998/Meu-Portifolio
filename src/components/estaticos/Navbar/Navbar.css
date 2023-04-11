@@ -50,11 +50,12 @@
 
 }
 .font{
-    color: #c2b4a4;
+    color: #111111;
     font-size: 20px !important;
     font-weight: 800;
-    font-family: w;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 10px black !important;
+    padding-top: 10%;
 
     
 

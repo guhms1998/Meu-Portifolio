@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, Box } from "@material-ui/core";
 import { height } from '@mui/system';
 import './SobreMim.css';
+import { useSpring, animated } from 'react-spring'
 
 const Card = ({ title, text, imageSrc }) => {
   return (
@@ -24,16 +25,16 @@ const SectionCard = ({ title, children }) => {
 
 const Portfolio = () => {
   const cardsData = [
-    { title: 'Ntx - Intolabs', text: 'Meu texto grande aquiaaaaaaaaaaaaaaaa', imageSrc: 'https://media.licdn.com/dms/image/C4D0BAQH4LEQODAncNw/company-logo_200_200/0/1604520937204?e=2147483647&v=beta&t=9VIax49j_LjIY4655_O6v0IL57EXTCOsNqhw-6BAz5w' },
-    { title: 'Leonor Corretora', text: 'Descrição da situação 2', imageSrc: '/images/situacao2.jpg' },
-    { title: 'China Lins', text: 'Descrição da situação 3', imageSrc: '/images/situacao3.jpg' },
-    { title: 'BumbleBee', text: 'Descrição da situação 3', imageSrc: '/images/situacao3.jpg' },
+    { title: 'Ntx - Intolabs', text: 'Preparação de documentos - Suporte de ti', imageSrc: 'https://media.licdn.com/dms/image/C4D0BAQH4LEQODAncNw/company-logo_200_200/0/1604520937204?e=2147483647&v=beta&t=9VIax49j_LjIY4655_O6v0IL57EXTCOsNqhw-6BAz5w' },
+    { title: 'Leonor Corretora', text: 'Cadastro e captação de imoveis - Suporte de ti', imageSrc: 'https://i.gifer.com/9dPi.gif' },
+    { title: 'China Lins', text: 'Garçom, Supervisor e manutenção do site', imageSrc: 'https://i.gifer.com/9dPi.gif' },
+    { title: 'BumbleBee', text: 'Supervisor', imageSrc: '/images/situacao3.jpg' },
   ];
   const cardsD = [
-    { title: 'Situação 1', text: 'Meu texto grande aaaaaa', imageSrc: '' },
-    { title: 'Situação 2', text: 'Descrição da situação 2', imageSrc: '/images/situacao2.jpg' },
-    { title: 'Situação 3', text: 'Descrição da situação 3', imageSrc: '/images/situacao3.jpg' },
-    { title: 'Situação 3', text: 'Descrição da situação 3', imageSrc: '/images/situacao3.jpg' },
+    { title: 'Generation', text: 'Pessoa Desenvolvedor Full-stack web Junior', imageSrc: '' },
+    { title: 'Metodista', text: 'Analise e desenvolvimento de sistemas ', imageSrc: '/images/situacao2.jpg' },
+    { title: 'Senac', text: 'Auxiliar de Recursos humanos', imageSrc: '/images/situacao3.jpg' },
+    { title: 'Colegio Metodista', text: 'Fundamnetal', imageSrc: '/images/situacao3.jpg' },
   ];
 
   const technologiesData = [
@@ -88,10 +89,7 @@ const Portfolio = () => {
         <Grid direction='row' xs={6} className='oi'>
           <SectionCard title="Experiencias" >
 
-            {cardsData.map((card) => (
-              <Card  key={card.title} title={card.title} text={card.text}   />
-
-            ))}
+           <img src="https://imgcloud.com.br/share/vrQOquW3kvQlWjIh" width='98%' />
           </SectionCard>
 
 
@@ -101,7 +99,7 @@ const Portfolio = () => {
 
         </Grid>
         <Grid direction='row' xs={2}>
-          <SectionCard title="Cusos" >
+          <SectionCard title="Cursos" >
 
             {cardsD.map((card) => (
               <Card key={card.title} title={card.title} text={card.text} imageSrc={card.imageSrc} />
