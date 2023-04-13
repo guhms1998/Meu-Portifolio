@@ -70,7 +70,7 @@
 
 .text2{
     color: #e6e4e3;
-    font-size: 50px !important; 
+    font-size: 55px !important; 
     font-family: 'Silkscreen', sans-serif !important;   
     text-align:right;   
     background-color: #0099ff;
@@ -350,6 +350,7 @@
 }
 .svg{
  height: 35vh;
+ width: 100%;
 
 }
 .pt2{
@@ -389,7 +390,7 @@
     vertical-align: super;
     background-color: rgb(108, 231, 51);
     color: #c2b4a4;
-    height: 120vh;
+    height: 100vh;
 }
 .window {
     width: 480px;
