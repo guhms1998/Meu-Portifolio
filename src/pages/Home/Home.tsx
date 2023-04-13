@@ -72,7 +72,7 @@ function Home() {
 
                 </Grid>
                 <Grid className='pt4' xs={12}>
-                <Box id='contato'></Box>
+                <Box id='contato'><Contato /></Box>
 
                 </Grid>
             </Grid>

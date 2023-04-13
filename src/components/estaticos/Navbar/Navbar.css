@@ -67,3 +67,6 @@
 .MuiAppBar-root{
     transition: all ease 1s;
 }
+.imgexp{
+    top: -10%;
+}

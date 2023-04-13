@@ -89,7 +89,7 @@ const Portfolio = () => {
         <Grid direction='row' xs={6} className='oi'>
           <SectionCard title="Experiencias" >
 
-           <img src="https://imgcloud.com.br/share/vrQOquW3kvQlWjIh" width='98%' />
+           <img src="https://imgcloud.com.br/share/vrQOquW3kvQlWjIh" width='96%' className='imgexp' />
           </SectionCard>
 
 
